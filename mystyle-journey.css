@@ -1,11 +1,11 @@
-/* การรีเซ็ตค่าเริ่มต้น */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* การจัดการรูปแบบพื้นฐาน */
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
@@ -14,7 +14,7 @@ body {
     padding: 20px;
 }
 
-/* การจัดการส่วน Header */
+
 header {
     background: #333;
     color: #fff;
@@ -46,7 +46,7 @@ nav a:hover {
     background: #555;
 }
 
-/* การจัดการเนื้อหาหลัก */
+
 main {
     max-width: 800px;
     margin: 0 auto;
@@ -73,7 +73,7 @@ main p {
     text-align: justify;
 }
 
-/* การจัดการส่วน Footer */
+
 footer {
     background: #333;
     color: white;

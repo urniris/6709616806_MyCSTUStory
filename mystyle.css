@@ -9,18 +9,18 @@ body, html {
     background: #f5f5f5;
 }
 
-/* สไตล์สำหรับ Navigation */
+
 nav {
     display: flex;
     justify-content: space-between;
     padding: 15px 30px;
-    background-color: #333; /* สีพื้นหลัง */
+    background-color: #333; 
     align-items: center;
 }
 
-/* โลโก้ในแถบ Navigation */
+
 .logo a {
-    color: #f2f2f2; /* สีตัวอักษรโลโก้ */
+    color: #f2f2f2; 
     text-decoration: none;
     font-weight: bold;
     font-size: 24px;
@@ -29,10 +29,10 @@ nav {
 .menu {
     display: flex;
     list-style: none;
-    gap: 30px; /* ใช้ gap แทน margin */
+    gap: 30px; 
 }
 
-/* การตกแต่งเมนู */
+
 .menu li a {
     text-decoration: none;
     color: #f2f2f2;
@@ -42,14 +42,14 @@ nav {
 }
 
 .menu li a:hover {
-    background-color: #555; /* สีพื้นหลังเมื่อเมาส์วาง */
+    background-color: #555; 
 }
 
 .menu li a:active {
-    background-color: #666; /* สีพื้นหลังเมื่อคลิก */
+    background-color: #666; 
 }
 
-/* สไตล์สำหรับ Banner */
+
 .banner {
     background-color: teal;
     color: white;
@@ -63,17 +63,17 @@ nav {
 
 .banner-info img {
     width: 250px;
-    border-radius: 50%; /* ทำให้เป็นวงกลม */
+    border-radius: 50%; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     margin-bottom: 20px;
 }
 
-/* รูปแบบเนื้อหาหลัก */
+
 main {
     padding: 40px 0;
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* จัดเนื้อหาแบบ 3 คอลัมน์ */
-    gap: 20px; /* เพิ่มช่องว่างระหว่างคอลัมน์ */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
     max-width: 1200px;
     margin: 0 auto;
     background: #fff;
@@ -81,7 +81,7 @@ main {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
-/* กล่องเนื้อหา */
+
 main div {
     padding: 20px;
     background: #f9f9f9;
@@ -89,13 +89,13 @@ main div {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
 }
 
-/* สไตล์ของวิดีโอ */
+
 main video {
     width: 100%;
     border-radius: 10px;
 }
 
-/* Footer */
+
 footer {
     background-color: #333;
     color: white;
